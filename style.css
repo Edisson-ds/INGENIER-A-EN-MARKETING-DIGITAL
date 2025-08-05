@@ -1,0 +1,54 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #fdf8f3;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #5a3e8c;
+}
+
+.semestre {
+  background: #fff9f2;
+  border: 1px solid #e0dcd5;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.semestre h2 {
+  margin-top: 0;
+  color: #4a4a4a;
+}
+
+.ramo {
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 8px;
+  background-color: #d6ecf3; /* celeste claro */
+  border: 1px solid #c4dce4;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ramo:hover {
+  background-color: #c1e0eb;
+}
+
+.ramo.cursado {
+  background-color: #c7b1e3; /* morado claro */
+  color: #333;
+  text-decoration: line-through;
+  border: 2px solid #000;
+}
+
+.prerrequisitos {
+  font-size: 0.9em;
+  color: #555;
+  margin-left: 24px;
+  display: none;
+}
